@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #3d5244;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 400px;
+    padding: 3em 2em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.5em;
+  }
+  .procurar-wrapper {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+  }
+  .procurar-wrapper button {
+    font-size: 1em;
+    background-color: #102856;
+    color: #ffffff;
+    padding: 0.8em 0;
+    border: none;
+    border-radius: 1em;
+  }
+  .procurar-wrapper input {
+    font-size: 12px;
+    padding: 0 0.62em;
+    border: none;
+    border-bottom: 1px solid #939393;
+    color: #222a43;
+  }
+  #result {
+    margin-top: 1.25em;
+  }
+  .container .bandeira-img {
+    display: block;
+    width: 45%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+  }
+  .container h2 {
+    color: #222a43;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 1.8em;
+  }
+
+  .container h4 {
+    display: inline;
+    color: #076113;
+  }
+  .container span {
+    color: #5d6274;
+  }
+  .container h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #ff465a;
+  }
+
+  .campo {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  #Texto1{
+    text-align: center;
+    top: 10em;
+    position: relative;
+    color: #ffffff;
+    font-size: 30px;
+
+  }
